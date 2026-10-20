@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fale conosco</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="chat">
+    <header>
+      <h1>Bem vindo ao nosso chat!</h1>
+      <p>Nosso assistente virtual irá te auxiliar.</p>
+    </header>
+    <section id="mensagens" role="log" aria-live="polite"
+      aria-label="Histórico da conversa">
+      <p class="bot">Assistente Virtual: Olá! Como posso ajudar?.</p>
+    </section>
+    <form id="formulario">
+      <label for="texto">Sua mensagem:</label>
+      <div class="entrada">
+        <input id="texto" type="text" placeholder="Digite aqui..." required>
+        <button type="submit">Enviar</button>
+      </div>
+    </form>
+  </main>
+</body>
+</html>
